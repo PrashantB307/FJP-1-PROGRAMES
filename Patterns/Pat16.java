@@ -11,7 +11,7 @@ public class Pat16 {
             System.out.print(val+"\t");
             val=val*(i-j)/(j+1);
             }
-             System.out.println();
+            System.out.println();
         }
     }
 }
