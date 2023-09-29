@@ -64,7 +64,7 @@ public class Main171 {
          }
          visited[rem.vtx] = true;
 
-         System.out.println(rem.vtx + "via" + rem.psf + "@" + rem.psf);
+         System.out.println(rem.vtx + " via " + rem.psf + " @ " + rem.wsf);
          for(Edge e : graph[rem.vtx]){
             if(visited[e.nbr] == false){
                pq.add(new Pair(e.nbr, rem.psf + e.nbr, rem.wsf + e.wt)); 
